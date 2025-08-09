@@ -1,0 +1,374 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: hsl(217, 28%, 15%);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heading
+{
+    display: flex;
+    align-items: center;
+}
+
+.logo
+{
+   margin: 20px;
+    display: flex;
+}
+.logotext
+{
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logoimg
+{
+     background-image: url(icons8-stack-64.png);
+     height: 60px;
+     width: 60px;
+     background-size: cover;
+}
+.nav
+{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 60px;
+    position: absolute;
+    right: 10px;
+    margin-top: 40px;
+    margin: 20px;
+    color: white;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px; /* Adjust this value as needed */
+}
+.centreimage {
+    height: 470px;
+    width: 640px;
+    background-image: url(illustration-intro.png);
+    background-size: cover;
+}
+.centrecontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 600px;
+    margin-top: 20px; /* Adjust this value as needed */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bigfont
+{
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+}
+.smallfont
+{
+    text-align: center;
+    width: 509px;
+    line-height: 23px;
+    margin: 10px;
+}
+.button
+{
+    height: 55px;
+    width: 300px;
+    border-radius: 51px;
+    background-color: cyan;
+    margin: 15px;
+    font-size: 15px;
+    font-weight: 900;
+    color: white;
+}
+
+.outercontainer
+{
+    height: 800px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.facilitycontainer
+{
+    height: 650px;
+    width: 70vw;
+    position: relative;
+}
+.computer 
+{
+    height: 220px;
+    width: 400px;
+    top: 20px;
+    left: 20px;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.cimg
+{
+    height: 90px;
+    width: 90px;
+    background-image: url(icons8-laptop-and-phone-64.png);
+    background-size: cover;
+    margin-left: 145px
+}
+.security
+{
+    height: 220px;
+    width: 400px;
+    top: 20px;
+    right: 20px;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.simg
+{
+    height: 90px;
+    width: 90px;
+    background-image: url(waranty_10645823.png);
+    background-size: cover;
+    margin-left: 145px
+}
+.time
+{
+    height: 220px;
+    width: 400px;
+    bottom: 20px;
+    left: 20px;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.timg
+{
+    height: 90px;
+    width: 90px;
+    background-image: url(interaction.png);
+    background-size: cover;
+    margin-left: 145px
+}
+.store
+{
+    height: 220px;
+    width: 400px;
+    bottom: 20px;
+    right: 20px;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.storeimg
+{
+    height: 90px;
+    width: 90px;
+    background-image: url(folder_7547347.png);
+    background-size: cover;
+    margin-left: 145px
+}
+.content
+{
+    margin: 20px;
+}
+
+.productivecontainer
+{   
+    height: 400px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.proimage
+{
+    height: 380px;
+    width: 480px;
+    background-image: url(work_chat_erdt-e1540826468775-removebg-preview\ \(1\).png);
+    background-size: cover;
+}
+
+.procontent
+{
+    height: 180px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.probigfont
+{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+}
+.prosmallfont
+{
+    line-height: 20px;
+    font-size: 13px;
+}
+.cardcontainer
+{
+    display: flex;
+    justify-content: space-evenly;
+    height: 520px;
+    margin-top: 100px;
+}
+.card1
+{
+    height: 200px;
+    width: 300px;
+    background-color: hsl(218, 28%, 13%);
+}
+.card2
+{
+    height: 200px;
+    width: 300px;
+    background-color: hsl(218, 28%, 13%);
+}
+.card3
+{
+    height: 200px;
+    width: 300px;
+    background-color: hsl(218, 28%, 13%);
+}
+.detail
+{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.card1content
+{
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+.dimg
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.name
+{
+    font-size: 10px;
+    margin: 15px;
+}
+
+.flogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between icons */
+}
+
+.footer
+{   
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    line-height: 25px;
+    background-color: hsl(216, 53%, 9%);
+}
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-logo {
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.phone-logo {
+    background-image: url(icons8-phone-50.png);
+}
+
+.email-logo {
+    background-image: url(icons8-email-50.png);
+}
+
+.contact-info {
+    font-size: 16px;
+    color: white;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.facebook {
+    background-image: url(icons8-facebook-50.png);
+}
+
+.twitter {
+    background-image: url(icons8-instagram-48.png);
+}
+
+.instagram {
+    background-image: url(icons8-twitter-circled-64.png);
+}
+p
+{
+    text-align: center;
+    margin: 0px;
+}
+
+
+
+  
+
+
+
